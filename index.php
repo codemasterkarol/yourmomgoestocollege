@@ -33,14 +33,8 @@
             font-size: 3rem;
         }
         @media screen and (max-width: 40em){
-            h1 {
-                font-size: 2rem;
-            }
-            iframe {
-                max-width: 100% !important;
-                width: auto !important;
-                height: auto !important;
-            }
+            h1 { font-size: 2rem; }
+            iframe { max-width: 100% !important; width: auto !important; height: auto !important; }
         }
     </style>
 </head>
@@ -61,9 +55,15 @@
         '<iframe src="//giphy.com/embed/KWfhruKxPtQPK" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/KWfhruKxPtQPK">via GIPHY</a></p>',
         '<iframe src="//giphy.com/embed/QoesEe6tCbLyw" width="480" height="258" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/goodbye-napoleon-dynamite-peace-out-QoesEe6tCbLyw">via GIPHY</a></p>',
         '<iframe src="//giphy.com/embed/c4t11obaChpu0" width="480" height="192" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/upset-slapping-c4t11obaChpu0">via GIPHY</a></p>',
-        '<iframe src="//giphy.com/embed/qr8FoUcrISr7O" width="480" height="218" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-best-movie-kip-qr8FoUcrISr7O">via GIPHY</a></p>'
+        '<iframe src="//giphy.com/embed/qr8FoUcrISr7O" width="480" height="218" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-best-movie-kip-qr8FoUcrISr7O">via GIPHY</a></p>',
+        '<iframe src="//giphy.com/embed/OyLg5lEed86HK" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/OyLg5lEed86HK">via GIPHY</a></p>',
+        '<iframe src="//giphy.com/embed/mtZIHsvO89EUo" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-mtZIHsvO89EUo">via GIPHY</a></p>',
+        '<iframe src="//giphy.com/embed/CQgwx1LwupcuQ" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-CQgwx1LwupcuQ">via GIPHY</a></p>',
+        '<iframe src="//giphy.com/embed/fBIUB1GIVxLtS" width="480" height="261" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-fBIUB1GIVxLtS">via GIPHY</a></p>',
+        '<iframe src="//giphy.com/embed/AHAgTP1a0Klvq" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dancing-awkward-napoleon-dynamite-AHAgTP1a0Klvq">via GIPHY</a></p>'
     ];
     echo $gifs[array_rand($gifs)]; ?>
-</div><div id="copyright">For shits and giggles. <a href="http://karolbrennan.com">KB.com</a></div>
+</div>
+<div id="copyright">For shits and giggles. <a href="http://karolbrennan.com">KB.com</a></div>
 </body>
 </html>
