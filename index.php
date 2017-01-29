@@ -7,6 +7,7 @@
     <style>
         body {
             display: table;
+            height: 100vh;
             width: 100%;
             font-family: Helvetica Neue, Helvetica, "Segoe UI", Arial, sans-serif;
             color: #fff;
@@ -63,7 +64,6 @@
         '<iframe src="//giphy.com/embed/qr8FoUcrISr7O" width="480" height="218" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-best-movie-kip-qr8FoUcrISr7O">via GIPHY</a></p>'
     ];
     echo $gifs[array_rand($gifs)]; ?>
-</div>
-<div id="copyright">For shits and giggles. <a href="http://karolbrennan.com">KB.com</a></div>
+</div><div id="copyright">For shits and giggles. <a href="http://karolbrennan.com">KB.com</a></div>
 </body>
 </html>
