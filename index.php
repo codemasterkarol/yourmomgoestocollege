@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="screenshot.png">
+    <meta property="og:image" content="ogimage.png"/>
     <title>Your Mom Goes To College!</title>
     <style>
         body {
