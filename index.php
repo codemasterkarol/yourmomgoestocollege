@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="screenshot.png" />
     <title>Your Mom Goes To College!</title>
     <style>
         body {
+            overflow: hidden;
             display: table;
             height: 100vh;
             width: 100%;
@@ -39,10 +41,8 @@
     </style>
 </head>
 <body>
-<div class="main">
-    <h1>Your Mom Goes To College!</h1>
-<?php
-    $gifs = [
+<div class="main"><h1>Your Mom Goes To College!</h1>
+<?php $gifs = [
         '<iframe src="//giphy.com/embed/Ys2oOKQgBzcLS" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/stuff-kip-Ys2oOKQgBzcLS">via GIPHY</a></p>',
         '<iframe src="//giphy.com/embed/yzBAE6wXsXs4g" width="480" height="182" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/napoleon-dynamite-kip-yzBAE6wXsXs4g">via GIPHY</a></p>',
         '<iframe src="//giphy.com/embed/l7Ky808S5hA5O" width="480" height="380" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/l7Ky808S5hA5O">via GIPHY</a></p>',
